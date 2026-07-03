@@ -1,0 +1,16 @@
+/bin/
+*.exe
+.env
+.env.local
+/internal/db/gen/
+/internal/graph/gen/
+/web/node_modules/
+/web/.next/
+/db/atlas/migrations/atlas.sum
+.DS_Store
+togo.db
+*.db
+/demo-api
+/demo
+web/dist
+web/node_modules

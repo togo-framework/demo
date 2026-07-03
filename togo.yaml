@@ -1,0 +1,19 @@
+api:
+    docs: /docs
+    graphql: /graphql
+    rest: /api
+auth:
+    provider: supabase
+database:
+    driver: sqlite
+    url: ${DATABASE_URL}
+frontend:
+    dir: web
+module: github.com/togo-framework/demo
+name: demo
+plugins:
+    - github.com/togo-framework/settings
+    - github.com/togo-framework/data
+    - github.com/togo-framework/autopilot
+    - github.com/togo-framework/auth
+    - github.com/togo-framework/auth-dev

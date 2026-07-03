@@ -1,0 +1,16 @@
+# Managed by togo. Source of truth for generated registries.
+resources:
+    - name: Post
+      table: posts
+      fields:
+        - name: title
+          go: string
+          gql: String!
+          pg: text
+          "null": false
+        - name: body
+          go: string
+          gql: String
+          pg: text
+          "null": true
+      controller: true
